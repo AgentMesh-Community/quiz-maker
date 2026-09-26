@@ -1,0 +1,33 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "quiz-maker",
+  "version": "0.1.1",
+  "description": "Turns source material into a quiz that checks whether somebody understood it: the concepts it will test, named and shown for approval first, then the questions, each one carrying the place in the source it came from and the place to go back to.",
+  "author": {
+    "name": "Agent Builder"
+  },
+  "keywords": [
+    "built-agent",
+    "draft",
+    "make-a-quiz",
+    "read-the-source",
+    "name-the-concepts",
+    "write-the-questions",
+    "check-the-questions",
+    "stage-the-quiz"
+  ],
+  "extensions": {
+    "net.agentdoc.package": {
+      "descriptor": {
+        "path": "descriptor.json",
+        "sha256": "2100cf21d09d223eacb288c98f96d99aafbde1067802eee97f91cfb5b097b1a1"
+      },
+      "install": {
+        "path": "install.json",
+        "sha256": "80ad03871b41a60f814ab6c15f3ed959fc42eff32e7d49057e333daa7da3f516"
+      },
+      "built": true,
+      "draft": true
+    }
+  }
+}

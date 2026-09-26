@@ -1,0 +1,7 @@
+{
+  "name": "quiz-maker-scripts",
+  "private": true,
+  "type": "module",
+  "description": "What the quiz-maker scripts need on a host: nothing. Reading a source, checking the questions and building the page are all node built-ins, deliberately, so the package installs with no dependency tree and a host with node can run it.",
+  "dependencies": {}
+}
